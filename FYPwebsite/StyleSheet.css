@@ -1,0 +1,309 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+body
+{
+    margin: 0;
+    font-family:'Raleway',sans-serif;
+}
+
+
+
+#container
+{
+    margin: 0 auto;
+}
+
+#header{
+    height:102px;
+    width:100%;
+    background-color:#333;
+}
+
+#logo{
+    height:100px;
+    width:25%;
+    background-color:#333;
+    float:left;
+    font-family: 'Playball', cursive;
+    color:white; 
+    font-size:50px;; 
+    text-align:center;
+}
+ /**search start*/
+#search
+{
+    height:50px;
+    width:70%;
+    background-color:#333;
+    float:right;
+}
+
+#search_bar
+{
+height:50px;
+width:30%;
+float:right;
+text-align:right;
+line-height:50px;
+margin-right:20px;
+}
+
+
+/*search end*/
+
+#nav{
+    height:50px;
+    width:70%;
+    background-color:#333;
+    float:right;
+}
+
+
+#banner{
+    height:600px;
+    width:100%;
+    background-color:gray;
+    background-image:url("adidas-banner.jpg");
+    background-size:99% 99%;
+}
+
+#content{
+    height:1000px;
+    width:100%;
+   // background-color:lightgray;
+}
+
+
+.contentbox{
+    height:450px;
+    width:31%;
+    background-color:white;
+    margin-top:33px;
+    margin-left:23px;
+    float:left;
+    border-style:solid;
+    border-width:thin;
+    border-color:gray;
+}
+
+.productImage
+{
+    height:300px;
+    width:90%;
+    background-color:white;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:23px;
+    float:left;
+        border-style:solid;
+    border-width:thin;
+    border-color:gray;
+}
+
+.contentbox:hover {
+    border-style:solid;
+    border-color:aquamarine;
+    border-width:2px;
+    }
+
+
+
+
+
+
+
+.productText
+{
+    height:100px;
+    width:90%;
+    background-color:white;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:23px;
+    float:left;
+
+}
+
+
+
+#quicklinks{
+    height:200px;
+    width:100%;
+    background-color:#333;
+
+}
+
+.about
+{
+    height:200px;
+    width:49%;
+    background-color:#333;
+    color:white;
+    border-right-style:solid;
+    border-right-width:thin;
+    border-right-color:lightgray;
+    text-align:center;
+    float:left;
+}
+
+
+.quickIn
+{
+    height:200px;
+    width:25%;
+    background-color:#333;
+    float:left;
+}
+
+#footer{
+    height:50px;
+    width:100%;
+    background-color:#333;
+    text-align:center;
+    line-height:45px;
+}
+
+
+ 
+a:link , a:visited
+{
+color:#fff;
+text-decoration:none;
+}
+
+a:hover
+{
+color:#666;
+}
+
+
+#quicklinks .quickIn ul li
+{
+list-style-type:none;
+}
+
+
+/*Inside page*/
+
+#contactArea
+{
+height:1150px;
+width:100%;
+overflow:hidden;
+}
+
+#AdminLoginArea
+{
+height:250px;
+width:100%;
+overflow:hidden;
+text-align:center;
+}
+
+#AdminLoginArea h1{
+    font-family:'Playball','cursive';
+}
+
+#BillingArea
+{
+height:1100px;
+width:47%;
+margin-top:25px;
+margin-left:30px;
+float:left;
+}
+
+
+
+#MapArea
+{
+height:600px;
+width:70%;
+float:left;
+margin-top:30px;
+}
+
+
+#NumArea
+{
+height:600px;
+width:30%;
+float:left;
+margin-top:30px;
+}
+
+
+#contact-card
+{
+    height:400px;
+    width:70%;
+    margin:0 auto;
+    margin-top:100px;
+    line-height:10px;
+    background-color:dimgray;
+    color:white;
+}
+
+
+#ProductContent{
+    height:1500px;
+    width:100%;
+   // background-color:lightgray;
+}
+
+
+
+/*Product Page start*/
+
+#ProductArea
+{
+    height:550px;
+    width:100%;
+}
+
+#ProductBanner{
+    height:450px;
+    width:100%;
+    background-color:gray;
+    background-image:url("adidas-banner.jpg");
+    background-size:99% 99%;
+}
+
+.ProductAreaBox
+{
+    height:500px;
+    width:47%;
+    float:left;
+    margin:20px;
+}
+
+.productImgDiv {
+    height:400px;
+    width:80%;
+    float:left;
+    margin-left:60px;
+    margin-top:60px;
+    background:#e0c1c1;
+}
+
+.productImgDiv:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+    z-index:-1;
+}
+
+
+
+
+
+
+
+
+/*Product Page start*/
+
+#adminContact{
+    width:1400px;
+    height:700px;
+    margin:0 auto;
+    text-align:center;
+}
